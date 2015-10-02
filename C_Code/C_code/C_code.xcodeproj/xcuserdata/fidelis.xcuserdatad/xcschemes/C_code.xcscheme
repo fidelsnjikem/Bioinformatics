@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "2E751CD71B865FC000DE3D3A"
-               BuildableName = "test"
-               BlueprintName = "test"
-               ReferencedContainer = "container:test.xcodeproj">
+               BlueprintIdentifier = "2EAA54491BBB968A00566FE0"
+               BuildableName = "C_code"
+               BlueprintName = "C_code"
+               ReferencedContainer = "container:C_code.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -29,36 +29,35 @@
       buildConfiguration = "Debug">
       <Testables>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "2EAA54491BBB968A00566FE0"
+            BuildableName = "C_code"
+            BlueprintName = "C_code"
+            ReferencedContainer = "container:C_code.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
    </TestAction>
    <LaunchAction
-      selectedDebuggerIdentifier = ""
-      selectedLauncherIdentifier = "Xcode.IDEFoundation.Launcher.PosixSpawn"
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       launchStyle = "0"
-      useCustomWorkingDirectory = "YES"
-      customWorkingDirectory = "/Users/fidelis/Desktop/test"
+      useCustomWorkingDirectory = "NO"
       buildConfiguration = "Debug"
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
       allowLocationSimulation = "YES">
-      <PathRunnable
-         runnableDebuggingMode = "0"
-         FilePath = "/usr/bin/python">
-      </PathRunnable>
-      <MacroExpansion>
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "2E751CD71B865FC000DE3D3A"
-            BuildableName = "test"
-            BlueprintName = "test"
-            ReferencedContainer = "container:test.xcodeproj">
+            BlueprintIdentifier = "2EAA54491BBB968A00566FE0"
+            BuildableName = "C_code"
+            BlueprintName = "C_code"
+            ReferencedContainer = "container:C_code.xcodeproj">
          </BuildableReference>
-      </MacroExpansion>
-      <CommandLineArguments>
-         <CommandLineArgument
-            argument = "test.py"
-            isEnabled = "YES">
-         </CommandLineArgument>
-      </CommandLineArguments>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -68,15 +67,16 @@
       useCustomWorkingDirectory = "NO"
       buildConfiguration = "Release"
       debugDocumentVersioning = "YES">
-      <MacroExpansion>
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "2E751CD71B865FC000DE3D3A"
-            BuildableName = "test"
-            BlueprintName = "test"
-            ReferencedContainer = "container:test.xcodeproj">
+            BlueprintIdentifier = "2EAA54491BBB968A00566FE0"
+            BuildableName = "C_code"
+            BlueprintName = "C_code"
+            ReferencedContainer = "container:C_code.xcodeproj">
          </BuildableReference>
-      </MacroExpansion>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
